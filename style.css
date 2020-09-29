@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 72px;
+    font-family: 'Audiowide', cursive;
+    color: #fff;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+canvas {
+    background: #ddd;
+    cursor: none;
+}
+
+.info {
+    width: 150px;
+    height: 200px;
+    background: #555;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+p {
+    background: #555;
+    display: block;
+    width: 50vw;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 36px;
+    text-align: center;
+}
